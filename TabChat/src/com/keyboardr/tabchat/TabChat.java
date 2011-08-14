@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import com.keyboardr.tabchat.service.CommsService;
 import com.keyboardr.tabchat.service.CommsService.CommsBinder;
 
-public class FBChat extends Activity {
+public class TabChat extends Activity {
 	private CommsService mService;
 	private boolean mBound = false;
 

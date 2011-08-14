@@ -121,7 +121,7 @@ public class AccountActivity extends Activity implements OnItemClickListener {
 			dialog.show();
 			return true;
 		case android.R.id.home:
-			Intent intent = new Intent(this, FBChat.class);
+			Intent intent = new Intent(this, TabChat.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(intent);
 			return true;
