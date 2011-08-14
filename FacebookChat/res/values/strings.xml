@@ -21,4 +21,5 @@
     <string name="pass_no_match">Passwords do not match!</string>
     <string name="domain">Domain</string>
     <string name="port">Port Number</string>
+    <string name="enabled">Enabled</string>
 </resources>

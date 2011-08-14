@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableRow xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow4">
-    <View android:id="@+id/view1" android:layout_height="0dp" android:layout_width="0dp"></View>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enabled" android:id="@+id/accountEnabled"></CheckBox>
     <LinearLayout
         android:id="@+id/LinearLayout1"
         android:layout_width="wrap_content"
