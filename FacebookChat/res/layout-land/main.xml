@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <fragment android:layout_height="match_parent" android:id="@+id/fragment1" android:name="com.keyboardr.test.fbchat.BuddyListFragment" android:layout_width="0dp" android:layout_weight="1">
+        <!-- Preview: layout=@layout/buddy_list -->
+    </fragment>
+    <View android:layout_width="2dp" android:id="@+id/view1" android:layout_height="match_parent" android:background="@color/separator_color"></View>
+    <fragment android:layout_height="match_parent" android:id="@+id/fragment2" android:name="com.keyboardr.test.fbchat.ChatFragment" android:layout_width="0dp" android:layout_weight="3">
+        <!-- Preview: layout=@layout/chat_stub -->
+    </fragment>
+</LinearLayout>

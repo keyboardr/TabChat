@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:showAsAction="always|withText" android:id="@+id/accounts"
+		android:title="@string/manageAccounts" android:icon="@drawable/account_list"></item>
+
+</menu>

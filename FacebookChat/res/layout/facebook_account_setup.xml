@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:layout_marginLeft="20dp" android:stretchColumns="1">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/userName"></TextView>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/accountUserName">
+            <requestFocus></requestFocus>
+        </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/password"></TextView>
+        <EditText android:inputType="textPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/accountPassword"></EditText>
+    </TableRow>
+    <include layout="@layout/account_setup_buttons" android:id="@+id/tableRow4_ref"  android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    
+</TableLayout>

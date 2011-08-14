@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/chatTopBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include android:layout_height="wrap_content" layout="@layout/buddy_list_item" android:id="@+id/include1" android:layout_width="0dp" android:layout_weight="1"></include>
+        <ImageView android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_close_clear_cancel" android:layout_width="wrap_content" android:id="@+id/chatCloseButton"></ImageView>
+    </LinearLayout>
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="10" android:id="@+id/chatMessageList"></ListView>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_weight="1">
+        <EditText android:layout_width="wrap_content" android:inputType="textMultiLine" android:layout_height="match_parent" android:layout_weight="10" android:gravity="top|left" android:hint="@string/chatTextPrompt" android:id="@+id/chatNewMessageText">
+            <requestFocus></requestFocus>
+        </EditText>
+        <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="1" android:text="@string/send" android:id="@+id/chatSendButton"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

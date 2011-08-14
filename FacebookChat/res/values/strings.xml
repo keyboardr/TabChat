@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">FBChatTest</string>
+    <string name="send">Send</string>
+    <string name="chatTextPrompt">Type your message here</string>
+    <string name="noChatActive1">No chats are active.</string>
+    <string name="noChatActive2">Select a buddy from the buddy list to begin chatting.</string>
+    <string name="me">Me:</string>
+    <string name="addAccount">Add Account</string>
+    <string name="manageAccounts">Accounts</string>
+    <string name="accountType">Account Type</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="done">Done</string>
+    <string name="deleteAccount">Delete Account</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="newAccountType">Select New Account Type</string>
+    <string name="pass_no_match">Passwords do not match!</string>
+    <string name="domain">Domain</string>
+    <string name="port">Port Number</string>
+</resources>
